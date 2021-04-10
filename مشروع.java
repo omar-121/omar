@@ -1,19 +1,19 @@
 package omar;
 
 import java.util.Scanner;
-public class „‘—Ê⁄ {
+public class omar {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub		
 	
 		Scanner red=new Scanner(System.in);
 		
-		System.out.print( " —Ìœ Â·"+"\n"+"«·„—»⁄ „ÕÌÿ Õ”«»-1"+ "\n"+"«·œ«∆—… „”«Õ… Õ”«»-2");
-		System.out.print("\n"+"«·„À·À „”«Õ… Õ”«»-3");
-		System.out.print("\n"+"·« «„ «Ê·Ì «·—ﬁ„ ﬂ«‰ «–«   √ﬂœ «‰ Ê —Ìœ —ﬁ„ ·œÌﬂ-4");
-		System.out.print("\n"+"«·“ÊÃÌ… «·«—ﬁ«„ „‰ „Ã„Ê⁄… «‰‘«¡  —Ìœ-5");
-		System.out.print("\n"+"«·‘ÂÌ—… «·»—„Ã… »·€«  „’›Ê›… ÿ»«⁄…  —Ìœ-6");
-		System.out.print("\n"+"\n"+" ‰›Ì–Â« «·„—«œ «·⁄„·Ì… —ﬁ„ «œŒ·: ");
+		System.out.print( "√ä√ë√≠√è √•√°"+"\n"+"√á√°√£√ë√à√ö √£√ç√≠√ò √ç√ì√á√à-1"+ "\n"+"√á√°√è√á√Ü√ë√â √£√ì√á√ç√â √ç√ì√á√à-2");
+		System.out.print("\n"+"√á√°√£√ã√°√ã √£√ì√á√ç√â √ç√ì√á√à-3");
+		System.out.print("\n"+"√°√á √á√£ √á√¶√°√≠ √á√°√ë√û√£ √ü√á√§ √á√ê√á √ä√ä√É√ü√è √á√§ √¶√ä√ë√≠√è √ë√û√£ √°√è√≠√ü-4");
+		System.out.print("\n"+"√á√°√í√¶√å√≠√â √á√°√á√ë√û√á√£ √£√§ √£√å√£√¶√ö√â √á√§√î√á√Å √ä√ë√≠√è-5");
+		System.out.print("\n"+"√á√°√î√•√≠√ë√â √á√°√à√ë√£√å√â √à√°√õ√á√ä √£√ï√ù√¶√ù√â √ò√à√á√ö√â √ä√ë√≠√è-6");
+		System.out.print("\n"+"\n"+"√ä√§√ù√≠√ê√•√á √á√°√£√ë√á√è √á√°√ö√£√°√≠√â √ë√û√£ √á√è√é√°: ");
 
 		
 		int i=red.nextInt();
@@ -22,36 +22,36 @@ public class „‘—Ê⁄ {
 		
 		if(i==1)
 		{
-		System.out.print("«·„—»⁄ ÷·⁄ ÿÊ· «œŒ·: ");
+		System.out.print("√á√°√£√ë√à√ö √ñ√°√ö √ò√¶√° √á√è√é√°: ");
 		int w=red.nextInt();
-		System.out.print(w*4+" :ÂÊ «·„—»⁄ „ÕÌÿ");
+		System.out.print(w*4+" :√•√¶ √á√°√£√ë√à√ö √£√ç√≠√ò");
 		}
 		
 		
 		
 		else if(i==2)
 		{
-			System.out.print("«·œ«∆—… ﬁÿ— ‰’› «œŒ·:");
+			System.out.print("√á√°√è√á√Ü√ë√â √û√ò√ë √§√ï√ù √á√è√é√°:");
 		double circle=red.nextInt();
-		System.out.print( "«·œ«∆—… „”«Õ…: " + (Math.PI*Math.pow(circle,2)) );
+		System.out.print( "√á√°√è√á√Ü√ë√â √£√ì√á√ç√â: " + (Math.PI*Math.pow(circle,2)) );
 		}
 
 		
 		
 		else if(i==3)
 		{
-		System.out.print("«·ﬁ«⁄œ… ÿÊ· «œŒ·: ");
+		System.out.print("√á√°√û√á√ö√è√â √ò√¶√° √á√è√é√°: ");
 		int base=red.nextInt();
-		System.out.print("«·„À·À «— ›«⁄ «œŒ·:");
+		System.out.print("√á√°√£√ã√°√ã √á√ë√ä√ù√á√ö √á√è√é√°:");
 		int height=red.nextInt();
 	
-		System.out.print("«·„À·À „”«Õ…:"+0.5*base*height);
+		System.out.print("√á√°√£√ã√°√ã √£√ì√á√ç√â:"+0.5*base*height);
 		}
 		
 		
 		else if(i==4)
 		{
-		System.out.print("3 „‰ «ﬂ»— —ﬁ„ «œŒ·: ");
+		System.out.print("3 √£√§ √á√ü√à√ë √ë√û√£ √á√è√é√°: ");
 		int prime=red.nextInt();
 		System.out.print( ( (prime%2==0)==false) && ( (prime%3==0)==false) );
 		
@@ -61,7 +61,7 @@ public class „‘—Ê⁄ {
 		
 		else if(i==5)
 		{
-			System.out.print("«·“ÊÃÌ… ··«—ﬁ«„ «·«⁄·Ï «·Õœ «œŒ·: ");
+			System.out.print("√á√°√í√¶√å√≠√â √°√°√á√ë√û√á√£ √á√°√á√ö√°√¨ √á√°√ç√è √á√è√é√°: ");
 			int number=red.nextInt();
 		    for(int num=0; num<=number; num++)
 		
@@ -72,7 +72,7 @@ public class „‘—Ê⁄ {
 		
 	
 	
-		//„’›Ê›… «‰‘«¡
+		//√£√ï√ù√¶√ù√â √á√§√î√á√Å
 		else if(i==6)
 		{
 			String backend[]=new String [5];
